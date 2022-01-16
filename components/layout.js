@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       {children}
       <div className="footer">
         <div>My Blog</div>
-        <div>(c) 2021 </div>
+        <div>(c) 2022 </div>
       </div>
     </div>
   );
