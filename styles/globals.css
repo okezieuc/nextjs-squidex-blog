@@ -2,15 +2,43 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.header {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.blog-heading {
+  font-size: 2em;
+  font-weight: bold;
   text-decoration: none;
+  color: black;
 }
 
-* {
-  box-sizing: border-box;
+.footer {
+  margin: 4em auto;
+  width: fit-content;
+}
+
+.blog-item {
+  margin-top: 20px;
+}
+
+.blog-item-title {
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+.blog-title {
+  font-size: 3em;
 }
